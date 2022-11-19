@@ -1,16 +1,39 @@
-# Crowdfunding-App
-In this project I am building a full-stuck crowdfunding app using Node.js, Express, Sequelize, Handlebars.js, and MVC architecture. 
+# Crowdfunding App
 
+## Description
+
+In this project I am building a full-stack crowdfunding app using Node.js, Express.js, Sequelize, Handlebars.js, and MVC architecture.
+
+## Installation 
+
+
+    bcrypt
+    connect-session-sequelize
+    express
+    express-handlebars
+    express-session
+    mysql2
+    sequelize
+    
+  
 ## User Stories
 
-* As a user, I want to see a list of current projects seeking funding.
+Once all the packages have been onstalled, run the following commend in the termianl:
+```
+npm run seeds
+npm start
+```
 
-* As a user, I want to be able to create an account.
 
-* As a registered user, I want to post my own projects to ask for funding.
+## Link To Deplyed Webpage
+
+## Mock Up
+
+![Screenshot of page page](./config/images/screenshot.png)
+
 
 ### Acceptance Criteria
-
+```
 * It's done when the `/` homepage route renders a list of all projects from the database.
 
 * It's done when the `/project/:id` route renders an individual project's details based on the route parameter id.
@@ -74,22 +97,7 @@ In this project I am building a full-stuck crowdfunding app using Node.js, Expre
     * If a user is deleted, all associated projects are also deleted.
 
 ---
+```
 
-## 💡 Hints
 
-* What tools can you use to test the existing API routes if you don't yet have a front end?
-
-* Where would you place the client-side JavaScript for capturing form data?
-
-* How can middleware help protect routes from non logged-in users?
-
-* How can Handlebars.js helpers (both built-in and custom) be used to render the desired results?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* Add an `/edit/:id` route for logged in users to update their projects' details. Then deploy the app to Heroku!
-
----
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
